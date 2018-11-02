@@ -1,24 +1,21 @@
-package model;
+package com.keops.keops.model;
 
 import javax.persistence.*;
 import java.util.Set;
 
 @Entity
 @Table(name = "photo")
-public class Photo {
+public class Photo extends AuditModel {
 
     @Id
     @GeneratedValue
     @Column(name = "PHOTO_ID")
-    private long id;
-
-    @Column(name = "CREATED_DATE", nullable = false)
-    private String createdDate;
+    private Long id;
 
     @Column(name = "LIKE_COUNT", nullable = false)
     private String likeCount;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "ALBUM_ID", nullable = false)
     private Album album;
 
@@ -32,20 +29,12 @@ public class Photo {
 
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
-    }
-
-    public String getCreatedDate() {
-        return createdDate;
-    }
-
-    public void setCreatedDate(String createdDate) {
-        this.createdDate = createdDate;
     }
 
     public String getLikeCount() {

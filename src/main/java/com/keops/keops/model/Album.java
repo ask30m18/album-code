@@ -1,4 +1,4 @@
-package model;
+package com.keops.keops.model;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -6,20 +6,17 @@ import java.util.Set;
 
 @Entity
 @Table(name = "album")
-public class Album {
+public class Album extends AuditModel {
 
     @Id
     @GeneratedValue
     @Column(name = "ALBUM_ID")
-    private long id;
-
-    @Column(name = "CREATED_DATE", nullable = false)
-    private String createdDate;
+    private Long id;
 
     @Column(name = "ALBUM_NAME", nullable = false)
     private String albumName;
 
-    @ManyToOne
+    @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JoinColumn(name = "USER_ID", nullable = false)
     private User user;
 
@@ -30,20 +27,20 @@ public class Album {
 
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 
-    public String getCreatedDate() {
-        return createdDate;
+    public Set<Photo> getPhotos() {
+        return photos;
     }
 
-    public void setCreatedDate(String createdDate) {
-        this.createdDate = createdDate;
+    public void setPhotos(Set<Photo> photos) {
+        this.photos = photos;
     }
 
     public String getAlbumName() {
@@ -58,15 +55,7 @@ public class Album {
         return user;
     }
 
-    public void setUser(User kullanici) {
-        user = kullanici;
-    }
-
-    public Set<Photo> getPhotos() {
-        return photos;
-    }
-
-    public void setPhotos(Set<Photo> photos) {
-        this.photos = photos;
+    public void setUser(User user) {
+        this.user = user;
     }
 }

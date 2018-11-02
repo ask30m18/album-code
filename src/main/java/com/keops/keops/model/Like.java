@@ -1,11 +1,11 @@
-package model;
+package com.keops.keops.model;
 
 import javax.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "like")
-public class Like {
+@Table(name = "photoLike")
+public class Like extends AuditModel {
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(name = "LIKE_ID", unique = true, nullable = false)
