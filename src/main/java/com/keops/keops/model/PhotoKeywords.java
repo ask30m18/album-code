@@ -1,10 +1,10 @@
-package model;
+package com.keops.keops.model;
 
 import javax.persistence.*;
 
 @Entity
 @Table(name = "photoKeywords")
-public class PhotoKeywords {
+public class PhotoKeywords extends AuditModel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.SEQUENCE)

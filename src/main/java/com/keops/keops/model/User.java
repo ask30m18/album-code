@@ -1,17 +1,17 @@
-package model;
+package com.keops.keops.model;
 
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
 
 @Entity
-@Table(name = "user")
-public class User {
+@Table(name = "\"user\"")
+public class User extends AuditModel {
 
     @Id
     @GeneratedValue
     @Column(name = "USER_ID")
-    private long id;
+    private Long id;
 
     @Column(name = "USER_NAME", nullable = false)
     private String userName;
@@ -26,18 +26,10 @@ public class User {
     private Integer password;
 
     @OneToMany(fetch = FetchType.LAZY, cascade = CascadeType.ALL, mappedBy = "user")
-    private Set<Album> studentCommunities = new HashSet<Album>(0);
+    private Set<Album> albums = new HashSet<Album>(0);
 
     public User() {
 
-    }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(long id) {
-        this.id = id;
     }
 
     public String getUserName() {
@@ -72,11 +64,19 @@ public class User {
         this.password = password;
     }
 
-    public Set<Album> getStudentCommunities() {
-        return studentCommunities;
+    public Long getId() {
+        return id;
     }
 
-    public void setStudentCommunities(Set<Album> studentCommunities) {
-        this.studentCommunities = studentCommunities;
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Set<Album> getAlbums() {
+        return albums;
+    }
+
+    public void setAlbums(Set<Album> albums) {
+        this.albums = albums;
     }
 }
