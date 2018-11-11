@@ -15,7 +15,7 @@
    <h2>Admin Login</h2>
    <p>Please enter your email and password</p>
    </div>
-    <form id="Login">
+    <form id="Login" action="https://keops-web1.herokuapp.com/auth" method='post' enctype="multipart/form-data">
 
         <div class="form-group">
 
@@ -36,7 +36,6 @@
 
     </form>
     </div>
-<p class="botto-text"> Designed by Sunil Rajput</p>
 </div></div></div>
 
 
