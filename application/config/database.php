@@ -7,7 +7,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => "localhost",
+	'hostname' => "ptefriends.social",
 	'username' => "yalim",
 	'password' => "creative12",
 	'database' => "yalim_db",
