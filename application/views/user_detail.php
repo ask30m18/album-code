@@ -25,13 +25,13 @@
 
     <!-- CSS -->
     <link rel='stylesheet' href='https://keops-web1.herokuapp.com/css/global.css'>
-    <link rel='stylesheet' href='css/structure.css'>
+    <link rel='stylesheet' href='https://keops-web1.herokuapp.com/css/structure.css'>
     <link rel='stylesheet' id='style-static' href='css/be_style.css'>
 
-    <link rel='stylesheet' href='assets/css/custom.css'>
+    <link rel='stylesheet' href='https://keops-web1.herokuapp.com/assets/css/custom.css'>
 
     <!-- Revolution Slider -->
-    <link rel="stylesheet" href="assets/plugins/rs-plugin/css/settings.css">
+    <link rel="stylesheet" href="https://keops-web1.herokuapp.com/assets/plugins/rs-plugin/css/settings.css">
 
 </head>
 
@@ -59,7 +59,7 @@
                         <div class="top_bar_left clearfix">
                             <!-- Logo-->
                             <div class="logo">
-                                <a id="logo" href="index.html" title="BeTheme - Best Html Theme Ever"><img class="scale-with-grid" src="assets/images/logo1.png" alt="BeTheme - Best Html Theme Ever" />
+                                <a id="logo" href="index.html" title="BeTheme - Best Html Theme Ever"><img class="scale-with-grid" src="https://keops-web1.herokuapp.com/assets/images/logo1.png" alt="BeTheme - Best Html Theme Ever" />
                                 </a>
                             </div>
                             <!-- Main menu-->
@@ -110,7 +110,7 @@
                             </div>
                             <!-- Banner area - only for certain pages-->
                             <div class="banner_wrapper">
-                                <a href="#" target="_blank"><img src="assets/images/468x60.gif" alt="">
+                                <a href="#" target="_blank"><img src="https://keops-web1.herokuapp.com/assets/images/468x60.gif" alt="">
                                 </a>
                             </div>
                             <!-- Header Searchform area-->
@@ -166,10 +166,10 @@
                                         <div class="image_frame post-photo-wrapper scale-with-grid">
                                             <div class="image_wrapper">
                                                 <a href="blog-single-content-builder.html">
-                                                    <div class="mask"></div><img width="576" height="450" src="images/beauty_portfolio_2-576x450.jpg" class="scale-with-grid wp-post-image" alt="beauty_portfolio_2" />
+                                                    <div class="mask"></div><img width="576" height="450" src="https://keops-web1.herokuapp.com/assets/images/beauty_portfolio_2-576x450.jpg" class="scale-with-grid wp-post-image" alt="beauty_portfolio_2" />
                                                 </a>
                                                 <div class="image_links double">
-                                                    <a href="images/beauty_portfolio_2.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="blog-single-content-builder.html" class="link"><i class="icon-link"></i></a>
+                                                    <a href="https://keops-web1.herokuapp.com/assets/images/beauty_portfolio_2.jpg" class="zoom" rel="prettyphoto"><i class="icon-search"></i></a><a href="blog-single-content-builder.html" class="link"><i class="icon-link"></i></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -291,23 +291,23 @@
 
 
 
-    <script src="assets/js/mfn.menu.js"></script>
-    <script src="assets/js/jquery.plugins.js"></script>
-    <script src="assets/js/jquery.jplayer.min.js"></script>
-    <script src="assets/js/animations/animations.js"></script>
-    <script src="assets/js/email.js"></script>
-    <script src="assets/js/scripts.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/js/mfn.menu.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/js/jquery.plugins.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/js/jquery.jplayer.min.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/js/animations/animations.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/js/email.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/js/scripts.js"></script>
 
-    <script src="assets/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
-    <script src="assets/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
-    <script src="assets/plugins/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
-    <script src="assets/plugins/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="assets/plugins/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
-    <script src="assets/plugins/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="assets/plugins/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="assets/plugins/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="assets/plugins/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
-    <script src="assets/plugins/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/plugins/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/plugins/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/plugins/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/plugins/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/plugins/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/plugins/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/plugins/rs-plugin/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/plugins/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/plugins/rs-plugin/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="https://keops-web1.herokuapp.com/assets/plugins/rs-plugin/js/extensions/revolution.extension.parallax.min.js"></script>
 
     <script>
         var tpj = jQuery;
@@ -396,7 +396,7 @@
                 var retinaEl = jQuery("#logo img");
                 var retinaLogoW = retinaEl.width();
                 var retinaLogoH = retinaEl.height();
-                retinaEl.attr("src", "assets/images/logo-retina.png").width(retinaLogoW).height(retinaLogoH)
+                retinaEl.attr("src", "https://keops-web1.herokuapp.com/assets/images/logo-retina.png").width(retinaLogoW).height(retinaLogoH)
             }
         });
     </script>
