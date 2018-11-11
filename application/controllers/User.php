@@ -10,6 +10,6 @@ class User extends CI_Controller {
 
 	    $data["album"]=$this->User_model->get_user_album(1);
 
-		$this->load->view('user_detail',$data);
+		$this->load->view('login',$data);
 	}
 }
