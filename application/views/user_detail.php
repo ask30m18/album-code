@@ -24,7 +24,7 @@
     <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Patua+One:100,300,400,400italic,700'>
 
     <!-- CSS -->
-    <link rel='stylesheet' href='css/global.css'>
+    <link rel='stylesheet' href='https://keops-web1.herokuapp.com/css/global.css'>
     <link rel='stylesheet' href='css/structure.css'>
     <link rel='stylesheet' id='style-static' href='css/be_style.css'>
 
