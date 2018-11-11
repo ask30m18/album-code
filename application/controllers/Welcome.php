@@ -20,9 +20,9 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-	    $this->load->model('First');
+	    $this->load->model('Data_model');
 
-	    $data=$this->First->get_table_information();
+	    $data=$this->Data_model->get_table_information();
 
 	    print_r($data);
 	    die();
